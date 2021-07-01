@@ -1,0 +1,177 @@
+:root {
+    --vermelho:#e50914;
+    --preto:#141414;
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    text-decoration: none;
+}
+
+body {
+    color: white;
+    background: var(--preto);
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 20px;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.logo img {
+    width: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    background-color: var(--vermelho);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease all;
+    
+}
+
+header nav a:hover {
+    background-color: white;
+    color: var(--preto);
+    text-decoration: underline;
+}
+
+/* destaques */
+.destaques {
+    font-size: 16px;
+    background-image: linear-gradient(to left, transparent 40%, rgba(0, 0, 0, 0.89) 67%), url('/img/mulher\ maravilha\ destaque.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+
+}
+
+.destaques .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.destaques .title {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+.destaque-banner {
+    font-size: 16px;
+    background-image: linear-gradient(to right, transparent 30%, rgba(0, 0, 0, 0.89) 60%), url('/img/destaque\ aves\ de\ rapina.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+
+}
+
+.destaque-banner .descricao {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.destaque-banner .title {
+    margin-top: 15%;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+
+}
+
+
+.botao {
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover {
+    background-color: var(--vermelho);
+    text-decoration: underline;
+}
+
+.botao i {
+    margin-right: 5px;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.container-banner {
+    margin-left: 62%;
+    margin-top: 25px;
+    position:relative;
+}
+
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes {
+    margin-top: 5px;
+}
+
+.carrossel-filmes .item img {
+    width: 100%;
+   height: 100%;
+   -webkit-transition: .5s ease;
+   transition: transform .5s ease;
+}
+.carrossel-filmes .item:hover img{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+h2 {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
