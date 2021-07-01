@@ -1,2 +1,2 @@
 # pagina-netflix-clone
- Clonando a Netflix, usando HTML, CSS e JavaScript.
+ Clonando a pagina da Netflix, usando HTML, CSS e JavaScript.
